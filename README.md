@@ -30,3 +30,21 @@ jobs:
       - name: Run lcov summary
         run: |
           lcov --summary coverage/lcov.info
+```
+
+---
+
+## 🐳 Usage in local Docker
+
+```bash
+docker pull uccioduri/ubuntu_lcov:latest
+
+docker run --rm -it uccioduri/ubuntu_lcov:latest bash
+```
+
+---
+
+## ⚖️ License
+
+This project is licensed under the [MIT License](LICENSE).
+
